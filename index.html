@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="./css/bootstrap-datepicker3.css">
+</head>
+
+<body>
+  <input type="text" class="datepicker">
+
+  <!-- 通过属性的方式来使用 日期选择框-->
+  <input type="text" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-language="zh-CN" data-date-end-date="0d" value="2017-01-01">
+
+  <script src="../jquery.js"></script>
+  <script src="./js/bootstrap-datepicker.js"></script>
+  <script src="./locales/bootstrap-datepicker.zh-CN.min.js"></script>
+
+  <script>
+    // 调用 datepicker() 方法实现 日期选择功能：
+    // $('.datepicker').datepicker({
+    //   language: 'zh-CN',           // 设置语言
+    //   format: 'yyyy-mm-dd',        // 设置日期格式
+    //   endDate: '0d',               // 设置结束日期
+    //   startDate: '2017-06-07'      // 设置开始日期
+    // });
+  </script>
+</body>
+
+</html>
